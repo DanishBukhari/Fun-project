@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+}
+body {
+  background-image: linear-gradient(
+    to left,
+    rgb(251, 199, 208),
+    rgb(233, 127, 145)
+  );
+}
+div {
+  background-color: rgba(0, 0, 0, 0.315);
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 50vw;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+input {
+  padding: 7px;
+  margin: 5px;
+}
+fieldset {
+  margin: 5px;
+}
+.submit {
+  background-color: rgb(65, 140, 224);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+.submit:hover {
+  background-color: rgb(75, 101, 185);
+  color: black;
+  cursor: pointer;
+}
+.file {
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+.file:hover {
+  color: black;
+  cursor: pointer;
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 10px;
+}
+p{
+    margin-left: 10px;
+}
+h1{
+    text-decoration: underline;
+}
